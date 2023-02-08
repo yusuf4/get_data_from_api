@@ -1,0 +1,30 @@
+.form-group{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.main-info{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+
+}
+.get-data{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+body{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+}
+input{
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+
+}

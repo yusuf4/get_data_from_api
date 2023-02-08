@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Fetch data</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-block">
+            <form class="form-group" action="">
+                <div class="main-info">
+                    <p style="font-size: 22px">Enter user information</p>
+                    <label id="name">Name</label>
+                    <input type="text" name="name" placeholder="Enter your name">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+                    <label for="getdata">Enter your ID</label>
+                    <input type="number" id="getdata" value="" placeholder="Enter ID of yor car">
+                </div>
+                <div class="get-data">
+                    <p style="font-size: 22px">Getting data by user ID</p>
+                    <label for="carname">Model</label>
+                    <input type="text" id="carname" value="" placeholder="load from API" disabled>
+                    <label for="carcollor">Collor</label>
+                    <input type="text" id="carcollor" placeholder="load from API" disabled>
+                    <label for="carprice">Cost $</label>
+                    <input type="number" id="carprice" placeholder="load from API" disabled>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
